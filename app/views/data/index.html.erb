@@ -1,0 +1,6 @@
+Data Endpoint: <%= data_url %>
+<br>
+<br>
+<% @records.each do |record| %>
+  <%= record.id %>&nbsp;<%= record.data %><br>
+<% end %>
